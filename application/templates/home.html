@@ -1,17 +1,13 @@
 <!DOCTYPE html>
+
+{% block header %}
+	{% include 'navbar.html' %}
+{% endblock %}
+
+{% block content %}
 <html lang="en" dir="ltr">
-  <head>
-
-    <link rel="shortcut icon" href='/static/favicon/favicon.png'>
-
-    <meta charset="utf-8">
-    <title>Language</title>
-    <h1 id="nav-bar">Here Will Be Navbar!</h1>
-  </head>
-
 
   <body>
-
   <div id="start">
     <p>The limits of my language mean the limits of my world.</p>
     <p>With our teachers you will be able to extend your language knowledge.</p>
@@ -43,3 +39,4 @@
 </footer>
 
 </html>
+{% endblock %}
